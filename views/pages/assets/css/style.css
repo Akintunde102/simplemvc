@@ -1,0 +1,481 @@
+
+/*end reset*/
+body {
+text-align: center;
+    font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color:#A7A1AE;
+  background-color:#1F2739;
+  
+	
+}
+.main-akin {
+    position: absolute;
+    top: 0;
+    left: 21%;
+    width: 55%;
+}
+
+
+
+
+/*--//parallax-js--*/
+
+.main-agile h2 {
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #000;
+}
+.akin-newsletter h2 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: cornflowerblue;
+}
+.akin-newsletter p {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 70%;
+    margin: 1.5em auto;
+    line-height: 1.6;
+    color: #fff;
+}
+.main-agile {
+    margin: 5em 0 7em;
+}
+.main-agile p {
+    color: #fff;
+    width: 59%;
+    text-align: center;
+    margin: 2em auto 1.5em;
+    line-height: 30px;
+    font-size: 1.1em;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.content-wthree {
+    padding: 50px 50px;
+    text-align: center;
+	position: relative;
+}
+.main-akin h1 {
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 3px;
+    margin: .55em 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.akin-newsletter form {
+    width: 75%;
+    margin: 2em auto 0;
+}
+.akin-newsletter input[type="text"] {
+    padding: .8em 1em;
+    width: 65%;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #fff;
+    outline: none;
+    border: 4px double #fff;
+    background: none;
+    float: left;
+}
+.akin-newsletter input[type="submit"] {
+    color: #fff;
+    font-size: .9em;
+    border: none;
+    background: #1B4394;
+    padding: 1.25em 3.5em;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    float: left;
+    letter-spacing: 1px;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.akin-newsletter input[type="submit"]:hover {
+    background: #7BB9F2;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.akin-newsletter img {
+    width: 45%;
+}
+
+/*--//footer--*/
+.footer-w3l p {
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding: 2em 0;
+	color:#fff;
+}
+.footer-w3l p a{
+	color:#fff;
+}
+.footer-w3l p a:hover{
+	text-decoration:underline;
+}
+/*--//footer--*/
+
+/*--responsive--*/
+@media(max-width: 1680px){
+
+}
+@media(max-width: 1600px){
+
+}
+@media(max-width: 1440px){
+	.akin-newsletter form {
+		width: 82%;
+	}
+	.akin-newsletter p {
+		width: 80%;
+	}
+}
+@media(max-width: 1366px){
+	.akin-newsletter form {
+		width: 90%;
+	}
+}
+@media(max-width: 1280px){
+	.akin-newsletter p {
+		width: 90%;
+	}
+	.main-akin h1 {
+		font-size: 3.5em;
+		margin: .5em 0;
+	}
+	.akin-newsletter h2 {
+		font-size: 2.8em;
+	}
+	.akin-newsletter {
+		padding: 2em 1em 3em;
+	}
+	canvas.particles-js-canvas-el {
+		height: 704px!important
+	}
+	.main-akin {
+		left: 20%;
+		width: 60%;
+	}
+}
+@media(max-width: 1080px){
+	.main-akin {
+		left: 15%;
+		width: 70%;
+	}
+}
+@media(max-width: 1050px){
+	.main-akin {
+		left: 14%;
+	}
+}
+@media(max-width: 1024px){
+	.main-akin {
+		left: 13%;
+		width: 72%;
+	}
+}
+@media(max-width: 991px){
+	.main-akin h1 {
+		font-size: 3.3em;
+	}
+	.akin-newsletter h2 {
+		font-size: 2.6em;
+	}
+	.akin-newsletter input[type="text"] {
+		width: 64%;
+	}
+	.akin-newsletter {
+		padding: 1.5em 1em 2em;
+	}
+	canvas.particles-js-canvas-el {
+		height: 664px!important;
+	}
+}
+@media(max-width: 900px){
+	.main-akin {
+		left: 10%;
+		width: 79%;
+	}
+}
+@media(max-width: 800px){
+	.main-akin h1 {
+		font-size: 3.2em;
+	}
+	.akin-newsletter h2 {
+		font-size: 2.3em;
+	}
+	.akin-newsletter input[type="submit"] {
+		padding: 1.25em 3em;
+	}
+	.akin-newsletter input[type="text"] {
+		width: 62%;
+	}
+	.footer-w3l p {
+		letter-spacing: 2px;
+		 padding: 1.5em 0;
+	}
+	canvas.particles-js-canvas-el {
+		height: 632px!important;
+	}
+}
+@media(max-width: 768px){
+	.main-akin {
+		left: 9%;
+		width: 81%;
+	}
+	.main-akin h1 {
+		margin: 1em 0;
+	}
+	.footer-w3l p {
+		padding: 5em 0;
+	}
+	canvas.particles-js-canvas-el {
+		height: 909px!important;
+	}
+	.akin-newsletter input[type="text"] {
+		width: 61%;
+	}
+}
+@media(max-width: 736px){
+	.main-akin h1 {
+		margin: .4em 0;
+		font-size: 3em;
+	}
+	.akin-newsletter h2 {
+		font-size: 2.2em;
+	}
+	.akin-newsletter p {
+		font-size: 1.2em;
+	}
+	.akin-newsletter img {
+		width: 28%;
+	}
+	.akin-newsletter input[type="submit"] {
+		padding: 1.25em 2.7em;
+	}
+	.footer-w3l p {
+		padding: 2.5em 0;
+	}
+	canvas.particles-js-canvas-el {
+		height: 600px!important;
+	}
+}
+@media(max-width: 667px){
+	.main-akin h1 {
+		font-size: 2.8em;
+	}
+	.akin-newsletter h2 {
+		font-size: 2em;
+	}
+	.akin-newsletter p {
+		width: 100%;
+	}
+	.main-akin {
+		left: 7%;
+		width: 89%;
+	}
+	canvas.particles-js-canvas-el {
+		height: 581px!important;
+	}
+	.footer-w3l p {
+		padding: 1.5em 0;
+	}
+}
+@media(max-width: 640px){
+	.main-akin {
+		left: 4%;
+		width: 93%;
+	}
+}
+@media(max-width: 600px){
+	.akin-newsletter input[type="text"] {
+		width: 58%;
+	}
+	.footer-w3l p {
+		line-height: 2;
+	}
+	.akin-newsletter {
+		padding: 1em 1em 2em;
+	}
+}
+@media(max-width: 568px){
+	.akin-newsletter input[type="submit"] {
+		padding: 1.25em 2.3em;
+	}
+}
+@media(max-width: 480px){
+	.main-akin h1 {
+		font-size: 2.5em;
+		letter-spacing: 2px;
+	}
+	.akin-newsletter h2 {
+		letter-spacing: 1px;
+	}
+	.akin-newsletter {
+		padding: .8em 1em 1.5em;
+	}
+	.akin-newsletter h2 {
+		font-size: 1.75em;
+	}
+	.akin-newsletter p {
+		font-size: 1.1em;
+	}
+	.akin-newsletter img {
+		width: 38%;
+	}
+	.akin-newsletter input[type="text"] {
+		font-size: .9em;
+	}
+	.akin-newsletter input[type="submit"] {
+		padding: 1.1em 1.4em;
+	}
+}
+@media(max-width: 440px){
+	.main-akin h1 {
+		font-size: 2.3em;
+		letter-spacing: 1px;
+	}
+	.akin-newsletter h2 {
+		font-size: 1.65em;
+	}
+	.akin-newsletter input[type="text"] {
+		width: 53%;
+	}
+}
+@media(max-width: 414px){
+	.akin-newsletter input[type="submit"] {
+		font-size: .85em;
+		padding: 1.2em 1.4em;
+	}
+	.main-akin {
+		left: 2%;
+		width: 95%;
+	}
+	.main-akin h1 {
+		margin: 1.4em 0 .8em;
+	}
+	.akin-newsletter input[type="text"] {
+		width: 52%;
+	}
+}
+@media(max-width: 384px){
+	.main-akin h1 {
+		margin: 1em 0 .4em;
+		font-size: 2em;
+	}
+	.akin-newsletter h2 {
+		font-size: 1.4em;
+	}
+	.akin-newsletter input[type="submit"] {
+		padding: 1.2em 1em;
+	}
+	.footer-w3l p {
+		font-size: .9em;
+	}
+}
+@media(max-width: 375px){
+	.akin-newsletter {
+		padding: .8em 0em 1.5em;
+	}
+	.main-akin h1 {
+		margin: 1.2em 0 .4em;
+	}
+}
+@media(max-width: 320px){
+	.main-akin h1 {
+		margin: .7em 0 .3em;
+		font-size: 1.8em;
+	}
+	.akin-newsletter h2 {
+		font-size: 1.25em;
+	}
+	.akin-newsletter p {
+		font-size: 1em;
+	}
+	.akin-newsletter input[type="text"] {
+		padding: .7em 1em;
+		font-size: .8em;
+	}
+	.akin-newsletter input[type="submit"] {
+		padding: 1.04em 1em;
+		font-size: .8em;
+	}
+	.footer-w3l p {
+		font-size: .8em;
+		padding: 1em 0;
+	}
+	canvas.particles-js-canvas-el {
+		height: 487px!important;
+	}
+}
+
+
+
+
+
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+   border-bottom: solid 1px rgba(255,255,255,0.1)
+}
+
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 15px;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+td a {color: white;}
+tr:nth-child(even) td a {color: #000;}
+
+tr:nth-child(even) {background: #fff; color: #000;  border-bottom: solid 1px rgba(255,255,255,0.1);}
+tr:nth-child(odd) {background: #000; color: #fff;  border-bottom: solid 1px rgba(255,255,255,0.1);}
+
+.dropdown-menu{ max-height:200px;
+          overflow-y:auto;}
+
+		  
+		  
