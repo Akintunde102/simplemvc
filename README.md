@@ -1,3 +1,3 @@
 # simplemvc
 
-Just a simple MVC
+Just a simple PHP MVC Framework
